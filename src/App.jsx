@@ -1,31 +1,12 @@
-import fotoMinha from './assets/foto.webp';
-import { welcome, years } from './utils/date';
 import Navbar from './components/navbar';
+import Hero from './components/hero';
 
 function App() {
   return (
     <>
       <Navbar />
       <main>
-        <section className="hero" id="sobre">
-          <div className='hero-content'>
-            <div className='hero-text'>
-              <span className='welcome'>{welcome()}</span>
-              <h1>Eu sou <strong>Matheus</strong>.</h1>
-              <h2>Desenvolvedor Full Stack</h2>
-              <p>
-                tenho {years()} anos, sou desenvolvedor <strong>Full Stack</strong>.
-                Atualmente desenvolvo projetos utilizando PHP, JS e outras tecnologias
-                voltadas ao desenvolvimento web.
-              </p>
-            </div>
-            <div className='hero-img'>
-              <div className='img-dec'>
-                <img src={fotoMinha} alt="Foto de Matheus Gonçalves Benevides" />
-              </div>
-            </div>
-          </div>
-        </section>
+        <Hero />
         <section className='section timeline-sec' id="trajetoria">
           <div className='section-header'>
             <span>TRAJETORIA</span>
