@@ -8,3 +8,37 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --bg-primary: #0F1117;
+  --bg-secondary: #151922;
+  --bg-card: #1B202B;
+  --text-primary: #F1F3F5;
+  --text-secondary: #A7ADB8;
+  --accent: #ff874f;
+  --border: #272D38;
+}
+
+body{
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+}
+
+.primary-sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.primary-sec div{
+  width: 25%;
+}
+
+.card{
+  border-radius: 10px;
+}
