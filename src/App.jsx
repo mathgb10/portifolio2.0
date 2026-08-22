@@ -69,7 +69,7 @@ function App() {
           <div className='projects'>
             <div className='card'>
               <div className='project-image'>
-                  <span>VPS PANEL</span>
+                <span>VPS PANEL</span>
               </div>
               <div className='project-content'>
                 <h3>VPS Panel</h3>
@@ -87,13 +87,13 @@ function App() {
             </div>
             <div className='card'>
               <div className='project-image'>
-                  <span>ZAINDEX</span>
+                <span>ZAINDEX</span>
               </div>
               <div className='project-content'>
                 <h3>Zaindex</h3>
                 <p>
                   Projeto voltado para descoberta e consulta de animes e mangás
-                   utilizando ua API externa.
+                  utilizando ua API externa.
                 </p>
               </div>
               <div className='project-tech'>
@@ -102,6 +102,68 @@ function App() {
                 <span>CSS</span>
                 <span>REST API - Jikan API/Terain API</span>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className='section skills-section' id='skills'>
+          <div className='section-header'>
+            <span>SKILLS</span>
+            <h2>Tecnologias que utilizo.</h2>
+          </div>
+          <div className='skills'>
+            <div className='skill-category'>
+              <h3>Frontend</h3>
+              <div className='skill-list'>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>TailwindCSS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+            <div className='skill-category'>
+              <h3>Backend</h3>
+              <div className='skill-list'>
+                <span>PHP</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+            <div className='skill-category'>
+              <h3>Banco de dados</h3>
+              <div className='skill-list'>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+              </div>
+            </div>
+            <div className='skill-category'>
+              <h3>Infraestrutura</h3>
+              <div className='skill-list'>
+                <span>Linux</span>
+                <span>Docker</span>
+                <span>Nginx</span>
+                <span>Cloudflare</span>
+              </div>
+            </div>
+            <div className='skill-category'>
+              <h3>Ferramentas</h3>
+              <div className='skill-list'>
+                <span>Git</span>
+                <span>Github</span>
+                <span>Insomnia</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className='section contact-section' id='contato'>
+          <div className='section-header'>
+            <span>CONTATO</span>
+            <h3>Caso queira conversar e saber mais sobre mim</h3>
+          </div>
+          <div className='contatos'>
+            <div className='contatos-list'>
+              <a href="wa.me/5517991389495">WhatsApp</a>
+              <a href="mailto:matheusgoncalvesbenevides@gmail.com">E-mail</a>
+              <a href="https://github.com/mathgb10">GitHub</a>
             </div>
           </div>
         </section>
