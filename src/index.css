@@ -1,3 +1,4 @@
+/* Global */
 @import "tailwindcss";
 
 * {
@@ -16,7 +17,7 @@
   --bg-card: #1B202B;
   --text-primary: #F1F3F5;
   --text-secondary: #A7ADB8;
-  --accent: #4fff78;
+  --accent: #4f9eff;
   --border: #272D38;
 }
 
@@ -33,7 +34,8 @@ main {
   width: 100%;
 }
 
-nav{
+/* Navbar */
+nav {
   width: 100%;
   position: fixed;
   padding: 30px;
@@ -43,7 +45,7 @@ nav{
   z-index: 2;
 }
 
-nav header h2{
+nav header h2 {
   color: var(--accent);
   font-weight: 700;
   font-size: 1.5em;
@@ -59,15 +61,13 @@ nav div a {
   font-size: 1.1em;
   font-style: italic;
   transition: all 0.4s ease-out;
-  &:hover{
+
+  &:hover {
     color: var(--accent);
   }
 }
 
-/* .section {
-  display: none;
-} */
-
+/* Hero */
 .hero {
   width: 100%;
 }
@@ -84,6 +84,7 @@ nav div a {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   gap: 80px;
 }
 
@@ -150,4 +151,78 @@ nav div a {
   border-radius: 20px;
   border: 1px solid var(--border);
   display: block;
+}
+
+/* Seções */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 3.5em;
+  margin-top: 2em;
+  min-height: 90vh;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-4xl);
+  border: 1px solid var(--border);
+}
+
+.section-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-header span {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.section-header h2 {
+  color: var(--text-primary);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.timeline-item {
+  flex: 1;
+}
+
+.timeline-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.timeline-year {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+
+.timeline-content div {
+  margin-top: .5em;
+  border-top: 3px solid var(--accent);
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 5px;
 }
