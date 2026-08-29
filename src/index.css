@@ -59,7 +59,7 @@ nav div {
 nav div a {
   font-weight: 600;
   font-size: 1.1em;
-  font-style: italic;
+  /* font-style: italic; */
   transition: all 0.4s ease-out;
 
   &:hover {
@@ -159,11 +159,11 @@ nav div a {
   flex-direction: column;
   gap: 3em;
   padding: 3.5em;
-  margin-top: 2em;
+  /* margin-top: 2em; */
   min-height: 90vh;
-  background: var(--bg-secondary);
+  /* background: var(--bg-secondary); */
   border-radius: var(--radius-4xl);
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
 }
 
 .section-header {
@@ -230,7 +230,8 @@ nav div a {
   text-align: justify;
 }
 
-.projects {
+/* Projetos */
+.projects, .skills {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -264,7 +265,7 @@ nav div a {
   display: block;
 }
 
-.project-content h3 {
+.project-content h3, .skill-category h3 {
   text-align: center;
   color: var(--accent);
   line-height: 1.8;
@@ -276,6 +277,7 @@ nav div a {
   font-size: 0.9rem;
   line-height: 1.4;
   text-align: justify;
+  min-height: 40px;
 }
 
 .project-tech {
@@ -286,7 +288,7 @@ nav div a {
   flex-wrap: wrap;
 }
 
-.project-tech span {
+.project-tech span, .skill-list span {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -297,4 +299,15 @@ nav div a {
 
 .icon {
   width: 1.7em;
+}
+
+/* Skills */
+.skill-category{
+  justify-content: unset;
+  gap: 20px;
+  min-width: 35%;
+}
+
+.skill-list{
+  width: 100%;
 }
