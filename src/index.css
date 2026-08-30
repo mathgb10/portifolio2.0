@@ -156,7 +156,6 @@ nav div a {
   object-fit: cover;
   border-radius: 20px;
   border: 1px solid var(--border);
-  display: block;
 }
 
 /* Seções */
@@ -189,6 +188,14 @@ nav div a {
   color: var(--text-primary);
   line-height: 1.8;
   font-size: 1.1rem;
+}
+
+.section-footer span {
+  font-style: italic;
+  color: var(--text-secondary);
+  font-weight: 100;
+  text-decoration: underline;
+  text-align: justify;
 }
 
 /* Timeline */
@@ -270,6 +277,13 @@ nav div a {
   height: 100%;
   border-radius: var(--radius-xl);
   border: 1px solid var(--border);
+}
+
+.cell {
+  display: none;
+}
+
+.pc {
   display: block;
 }
 
@@ -419,6 +433,14 @@ nav div a {
 
   .project-tech {
     align-items: start;
+  }
+
+  .cell {
+    display: block;
+  }
+
+  .pc {
+    display: none;
   }
 
   .contact-section {
