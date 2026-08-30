@@ -1,7 +1,7 @@
 import VpsPanel from '../assets/imgs/vpspanel.webp';
 import Zaindex from '../assets/imgs/zaindex.webp';
-import VpsPanelMobile from '../assets/imgs/vpspanel-mobile.jpeg';
-import ZaindexMobile from '../assets/imgs/zaindex-mobile.jpeg';
+import VpsPanelMobile from '../assets/imgs/vpspanel-mobile.webp';
+import ZaindexMobile from '../assets/imgs/zaindex-mobile.webp';
 
 import JSicon from '../assets/icons/js.svg';
 import PHPicon from '../assets/icons/php.svg';
