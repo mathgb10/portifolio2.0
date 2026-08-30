@@ -26,8 +26,8 @@ export default function Projects() {
                     <div className='project-tech'>
                         <span><img className="icon" src={PHPicon} alt="PHP"/>PHP</span>
                         <span><img className="icon" src={JSicon} alt="JS"/>JavaScript</span>
-                        <span>REST API</span>
                         <span><img className="icon" src={Dockericon} alt="Docker"/>Docker</span>
+                        <span>REST API</span>
                     </div>
                 </div>
                 <div className='card'>

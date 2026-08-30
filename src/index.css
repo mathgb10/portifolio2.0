@@ -342,3 +342,53 @@ nav div a {
     color: var(--accent);
   }
 }
+
+@media (max-width: 768px) {
+
+  body {
+    padding: unset;
+  }
+
+  .hero {
+    padding: 6em 0px 6em 0px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  .timeline {
+    flex-direction: column;
+  }
+
+  .timeline-content div {
+    border-radius: 0px var(--radius-2xl) var(--radius-2xl) 0px;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+  }
+
+  .skills,
+  .projects,
+  .project-tech, .contatos {
+    flex-direction: column;
+  }
+
+  .project-tech{
+    align-items: start;
+  }
+
+  .contact-section{
+    border-radius: var(--radius-4xl) var(--radius-4xl) 0px 0px;
+  }
+  .contatos-text h2{
+    font-size: 1.2em;
+  }
+
+  .contatos-list a {
+    font-size: 1em;
+  }
+}
