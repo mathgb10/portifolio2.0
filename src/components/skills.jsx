@@ -1,23 +1,23 @@
-import JSIcon from '../assets/js.svg';
-import ReactIcon from '../assets/react.svg';
-import TailIcon from '../assets/tailwind.svg';
-import HtmlIcon from '../assets/html.svg';
-import CssIcon from '../assets/css.svg';
+import JSIcon from '../assets/icons/js.svg';
+import ReactIcon from '../assets/icons/react.svg';
+import TailIcon from '../assets/icons/tailwind.svg';
+import HtmlIcon from '../assets/icons/html.svg';
+import CssIcon from '../assets/icons/css.svg';
 
-import PHPIcon from '../assets/php.svg';
-import NodeIcon from '../assets/node.svg';
+import PHPIcon from '../assets/icons/php.svg';
+import NodeIcon from '../assets/icons/node.svg';
 
-import MySqlIcon from '../assets/mysql.svg';
-import PostIcon from '../assets/postgresql.svg';
+import MySqlIcon from '../assets/icons/mysql.svg';
+import PostIcon from '../assets/icons/postgresql.svg';
 
-import UbuntuIcon from '../assets/ubuntu.svg';
-import DockerIcon from '../assets/docker.svg';
-import NginxIcon from '../assets/nginx.svg';
-import CloudIcon from '../assets/cloudflare.svg';
+import UbuntuIcon from '../assets/icons/ubuntu.svg';
+import DockerIcon from '../assets/icons/docker.svg';
+import NginxIcon from '../assets/icons/nginx.svg';
+import CloudIcon from '../assets/icons/cloudflare.svg';
 
-import GitIcon from '../assets/git.svg';
-import GitHIcon from '../assets/github.svg';
-import InsoIcon from '../assets/insomnia.svg';
+import GitIcon from '../assets/icons/git.svg';
+import GitHIcon from '../assets/icons/github.svg';
+import InsoIcon from '../assets/icons/insomnia.svg';
 
 export default function skills() {
     return (
@@ -54,7 +54,7 @@ export default function skills() {
                 <div className='skill-category card'>
                     <h3>Infraestrutura</h3>
                     <div className='skill-list'>
-                        <span><img className='icon' src={UbuntuIcon} alt="Ubuntu"/>Linux</span>
+                        <span><img className='icon' src={UbuntuIcon} alt="Ubuntu"/>Ubuntu</span>
                         <span><img className='icon' src={DockerIcon} alt="Docker" />Docker</span>
                         <span><img className='icon' src={NginxIcon} alt="Nginx"/>Nginx</span>
                         <span><img className='icon' src={CloudIcon} alt="Cloudflare"/>Cloudflare</span>

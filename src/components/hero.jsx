@@ -1,4 +1,4 @@
-import fotoMinha from '../assets/foto.webp';
+import fotoMinha from '../assets/imgs/foto.webp';
 import { welcome, years } from '../utils/date';
 
 export default function Hero() {

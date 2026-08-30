@@ -231,7 +231,9 @@ nav div a {
 }
 
 /* Projetos */
-.projects, .skills {
+.projects,
+.skills,
+.contatos {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -256,7 +258,7 @@ nav div a {
   position: relative;
 }
 
-.project-image img{
+.project-image img {
   position: relative;
   width: 100%;
   height: 100%;
@@ -265,7 +267,8 @@ nav div a {
   display: block;
 }
 
-.project-content h3, .skill-category h3 {
+.project-content h3,
+.skill-category h3 {
   text-align: center;
   color: var(--accent);
   line-height: 1.8;
@@ -288,7 +291,9 @@ nav div a {
   flex-wrap: wrap;
 }
 
-.project-tech span, .skill-list span {
+.project-tech span,
+.skill-list span,
+.contatos-list a {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -302,12 +307,38 @@ nav div a {
 }
 
 /* Skills */
-.skill-category{
+.skill-category {
   justify-content: unset;
   gap: 20px;
   min-width: 35%;
 }
 
-.skill-list{
+.skill-list {
   width: 100%;
+}
+
+/* Contatos */
+.contact-section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  height: auto;
+  min-height: unset;
+  justify-content: space-around;
+}
+
+.contatos-list,
+.contatos-text {
+  border: unset;
+  background: unset;
+  align-items: flex-start;
+}
+
+.contatos-list a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: all 0.4s ease-out;
+
+  &:hover {
+    color: var(--accent);
+  }
 }

@@ -1,8 +1,8 @@
-import VpsPanel from '../assets/vpspanel.webp';
-import Zaindex from '../assets/zaindex.webp';
-import JSicon from '../assets/js.svg';
-import PHPicon from '../assets/php.svg';
-import Dockericon from '../assets/docker.svg';
+import VpsPanel from '../assets/imgs/vpspanel.webp';
+import Zaindex from '../assets/imgs/zaindex.webp';
+import JSicon from '../assets/icons/js.svg';
+import PHPicon from '../assets/icons/php.svg';
+import Dockericon from '../assets/icons/docker.svg';
 
 export default function Projects() {
     return (
