@@ -5,13 +5,15 @@ import HtmlIcon from '../assets/icons/html.svg';
 import CssIcon from '../assets/icons/css.svg';
 
 import PHPIcon from '../assets/icons/php.svg';
+import PythonIcon from '../assets/icons/python.svg';
 import NodeIcon from '../assets/icons/node.svg';
 
 import MySqlIcon from '../assets/icons/mysql.svg';
 import PostIcon from '../assets/icons/postgresql.svg';
 
-import UbuntuIcon from '../assets/icons/ubuntu.svg';
 import DockerIcon from '../assets/icons/docker.svg';
+import GitActionsIcon from '../assets/icons/gitactions.svg';
+import UbuntuIcon from '../assets/icons/ubuntu.svg';
 import NginxIcon from '../assets/icons/nginx.svg';
 import CloudIcon from '../assets/icons/cloudflare.svg';
 
@@ -30,8 +32,8 @@ export default function skills() {
                 <div className='skill-category card'>
                     <h3>Frontend</h3>
                     <div className='skill-list'>
-                        <span><img className='icon' src={JSIcon} alt="JS" />JavaScript</span>
                         <span><img className='icon' src={ReactIcon} alt="React"/>React</span>
+                        <span><img className='icon' src={JSIcon} alt="JS" />JavaScript</span>
                         <span><img className='icon' src={TailIcon} alt="Tailwind"/>TailwindCSS</span>
                         <span><img className='icon' src={HtmlIcon} alt="HTML"/>HTML</span>
                         <span><img className='icon' src={CssIcon} alt="CSS"/>CSS</span>
@@ -41,6 +43,7 @@ export default function skills() {
                     <h3>Backend</h3>
                     <div className='skill-list'>
                         <span><img className='icon' src={PHPIcon} alt="PHP" />PHP</span>
+                        <span><img className='icon' src={PythonIcon} alt="Python"/>Python</span>
                         <span><img className='icon' src={NodeIcon} alt="Node"/>Node.js</span>
                     </div>
                 </div>
@@ -54,9 +57,10 @@ export default function skills() {
                 <div className='skill-category card'>
                     <h3>Infraestrutura</h3>
                     <div className='skill-list'>
-                        <span><img className='icon' src={UbuntuIcon} alt="Ubuntu"/>Ubuntu</span>
                         <span><img className='icon' src={DockerIcon} alt="Docker" />Docker</span>
+                        <span><img className='icon' src={GitActionsIcon} alt="GitActions" />GitActions</span>
                         <span><img className='icon' src={NginxIcon} alt="Nginx"/>Nginx</span>
+                        <span><img className='icon' src={UbuntuIcon} alt="Ubuntu"/>Ubuntu</span>
                         <span><img className='icon' src={CloudIcon} alt="Cloudflare"/>Cloudflare</span>
                     </div>
                 </div>
